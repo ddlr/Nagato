@@ -1,0 +1,35 @@
+{
+  "admins" :
+  [ "array of bot admins' IDs"
+  ]
+, "eris_options" :
+  { "getAllUsers" : true
+  , "messageLimit" : 0
+  , "maxShards" : 1
+  , "disableEvents" :
+    { "TYPING_START" : true
+    , "GUILD_EMOJI_UPDATE" : true
+    , "GUILD_INTEGRATIONS_UPDATE" : true
+    , "GUILD_BAN_ADD" : true
+    , "GUILD_BAN_REMOVE" : true
+    , "MESSAGE_UPDATE" : true
+    , "MESSAGE_DELETE" : true
+    , "MESSAGE_DELETE_BULK" : true
+    }
+  }
+, "help" : [ ]
+, "logger" :
+  { "logCommands" : true
+  , "logInfo" : true
+  , "logWarn" : true
+  , "logError" : true
+  , "logDebug" : false
+  , "timeStamps" : true
+  }
+, "message_handler" :
+  { "userRestricted" : [ ]
+  , "allowedBots" : [ ]
+  , "prefix" : "your default prefix here"
+  }
+, "token" : "your bot's token here"
+}

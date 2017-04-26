@@ -1,0 +1,5 @@
+My attempt at figuring out how the heck Nagato works, and also stuff about classes, I guess. WIP
+
+Currently working on:
+* Replacing logger with my own
+* Figuring out how to get the stuff in commands/ to work
