@@ -1,12 +1,19 @@
-// Copy-pasted from Yuki-chan
-// TODO: Figure out how to get CommandLoader.js to not complain
-module.exports = {
-    usage: '**Pings** this bot, useful for checking if the bots working correctly. **(Not accurate)**',
-    process: msg => {
-        return Promise.resolve({
-            message: "PONG!", //Sends Pong! on message
-            //Uses a function to configure the time between the message recieving th message and the new sent one so the time will be more accurate
-            edit: message => 'PONG! | *' + (new Date(message.timestamp) - new Date(msg.timestamp)) + '*ms'
-        });
-    }
+BaseCommand = require('../../lib/Abstracts/BaseCommand')
+
+class Ping extends BaseCommand {
+  constructor(bot, type) {
+    super(bot, type)
+
+    this.aliases = ['p']
+  }
+
+  get name() {
+    return 'ping'
+  }
+
+  async process(msg) {
+    await this.execute(msg, 'Pong!')
+  }
 }
+
+module.exports = Ping
