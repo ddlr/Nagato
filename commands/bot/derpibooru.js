@@ -92,7 +92,6 @@ class Derpibooru extends BaseCommand {
         , image: { url: 'https:' + imageUrl }
         }
       }
-      console.log(result)
       await this.execute(msg, result)
     } catch (e) {
       this.bot.log.error(e.message)
