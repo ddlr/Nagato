@@ -1,8 +1,8 @@
 {
-  "admins" :
+  "Owners" :
   [ "array of bot admins' IDs"
   ]
-, "eris_options" :
+, "Eris" :
   { "getAllUsers" : true
   , "messageLimit" : 0
   , "maxShards" : 1
@@ -17,8 +17,7 @@
     , "MESSAGE_DELETE_BULK" : true
     }
   }
-, "help" : [ ]
-, "logger" :
+, "Logger" :
   { "logCommands" : true
   , "logInfo" : true
   , "logWarn" : true
@@ -26,10 +25,10 @@
   , "logDebug" : false
   , "timeStamps" : true
   }
-, "message_handler" :
-  { "userRestricted" : [ ]
-  , "allowedBots" : [ ]
-  , "prefix" : "your default prefix here"
+, "MessageHandler" :
+  { "defaultPrefixes" : [ ]
+  , "prefixes" : [ ]
+  , "UserRestricted" : "your default prefix here"
   }
-, "token" : "your bot's token here"
+, "Token" : "your bot's token here"
 }
