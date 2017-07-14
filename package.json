@@ -4,9 +4,7 @@
   "bugs": "https://github.com/ddlr/douxieme/issues",
   "dependencies": {
     "chalk": "^1.1.3",
-    "eris": "github:abalabahaha/eris#dev",
-    "request-promise-native": "^1.0.4",
-    "require-reload": "^0.2.2"
+    "eris": "github:abalabahaha/eris#dev"
   },
   "optionalDependencies": {
     "request": "^2.81.0"
