@@ -1,7 +1,6 @@
 My attempt at setting up Nagato. WIP
 
 Currently working on:
-* Replacing logger with my own
 * Middleware
 * Re-adding all the commands
 

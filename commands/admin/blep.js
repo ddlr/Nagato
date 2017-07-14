@@ -14,7 +14,7 @@ class Blep extends BaseCommand {
 
   get help() {
     return 'Says something as the bot on any channel/guild it is on.\n' +
-           '[command prefix]blep [server ID] [guild ID] [message]'
+           '~blep [server ID] [guild ID] [message]'
   }
 
   async process(msg, args) {
