@@ -28,8 +28,8 @@ class Blep extends BaseCommand {
       Number.isInteger(parseInt(b)) &&
       c
     ) {
-      // third parameter is surrounded by ``these`` (e.g. so strings like :these:
-      // or <these> aren’t parsed by Discord as emoji)
+      // third parameter is surrounded by ``these`` (e.g. so strings like
+      // :these: or <these> aren’t parsed by Discord as emoji)
       if (c && c.startsWith('``')) {
         c = c.slice(2, -2)
       }

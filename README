@@ -58,3 +58,4 @@ Guide to `options.json`:
 Currently working on:
 * Middleware
 * Re-adding all the commands
+* Implementing ownerOnly
