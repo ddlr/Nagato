@@ -3,4 +3,5 @@ My attempt at setting up Nagato. WIP
 Currently working on:
 * Middleware
 * Re-adding all the commands
+* Implement `needsPrefix = false`
 
