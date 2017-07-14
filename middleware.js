@@ -3,8 +3,10 @@ const Middleware_Core = require('./lib/Middleware.js')
 
 class Middleware extends Middleware_Core {
   async checkUser(userID) {
-    blacklisted = false
+    const blacklisted = false
     // blacklisted = whether user in blacklist database
     return !!blacklisted
   }
 }
+
+module.exports = Middleware
